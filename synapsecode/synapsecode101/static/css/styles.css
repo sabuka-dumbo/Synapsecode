@@ -255,6 +255,16 @@ h3 {
     object-fit: cover;
 }
 
+.project {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 40px);
+    height: max-content;
+    padding: 20px;
+    background: linear-gradient(-20deg, #B353CE, #521E61);
+}
+
 @media screen and (max-width: 1000px) {
     header {
         grid-template-columns: 100%;
