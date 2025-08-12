@@ -139,7 +139,16 @@ h1 {
         top: 0;
         left: 0;
         width: 200px;
-        margin-left: 10%;
+        margin-left: 32%;
+        margin-top: 20px;
+    }
+    
+    .nav-button {
+        display: block;
+        width: 100%;
+        height: max-content;
+        margin-bottom: 20px;
+        text-align: left;
     }
 }
 
