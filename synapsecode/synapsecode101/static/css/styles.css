@@ -195,7 +195,9 @@ h3 {
     font-weight: bold;
     color: white;
     border: none;
-    background: -webkit-linear-gradient(-20deg, #B353CE, #521E61); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(-20deg, #B353CE, #521E61);
+    background-size: 400% 400%;
+    animation: gradientShift 5s ease infinite;
 }
 
 @media screen and (max-width: 1000px) {
@@ -385,5 +387,17 @@ h3 {
 
     100% {
         left: -100%;
+    }
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
     }
 }
