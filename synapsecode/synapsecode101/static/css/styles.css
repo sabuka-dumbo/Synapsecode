@@ -374,6 +374,18 @@ h3 {
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .aboutus-container {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .aboutus-container2 {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
 
 @media screen and (max-width: 350px) {
