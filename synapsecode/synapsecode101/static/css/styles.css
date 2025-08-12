@@ -198,6 +198,25 @@ h3 {
     background: -webkit-linear-gradient(-20deg, #B353CE, #521E61); /* For Safari 5.1 to 6.0 */
 }
 
+@media screen and (max-width: 1000px) {
+    header {
+        grid-template-columns: 100%;
+    }
+
+    .header-content {
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 0;
+    }
+
+    .header-img {
+        grid-column: 1;
+        grid-row: 1;
+        height: 400px;
+        object-fit: contain;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .nav-links {
         display: none;
@@ -265,6 +284,12 @@ h3 {
         padding-left: 20px;
         padding-right: 20px;
         width: calc(100% - 40px);
+    }
+
+    header {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
