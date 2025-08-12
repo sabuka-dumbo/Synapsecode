@@ -1,6 +1,7 @@
 Django
-Pillow
 gunicorn
 whitenoise
+Pillow
 django-cloudinary-storage
 cloudinary
+psycopg2-binary
