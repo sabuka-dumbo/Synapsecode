@@ -23,9 +23,10 @@ header {
     position: relative;
     top: 0;
     left: 0;
-    width: calc(100% - 300px);
-    margin-right: 150px;
-    margin-left: 150px;
+    width: calc(100% - 200px);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
     height: max-content;
     display: grid;
     grid-template-columns: 48% 4% 48%;
@@ -147,10 +148,36 @@ h3 {
 
 .header-content {
     grid-column: 1;
+    position: relative;
+    top: 100px;
+    width: 100%;
 }
 
 .header-img {
     grid-column: 3;
+}
+
+.header-description {
+    margin-top: 20px;
+}
+
+.header-button {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Itim";
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: -webkit-linear-gradient(-20deg, #B353CE, #521E61); /* For Safari 5.1 to 6.0 */
 }
 
 @media screen and (max-width: 720px) {
