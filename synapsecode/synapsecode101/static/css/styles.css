@@ -47,3 +47,65 @@ h1 {
     top: 30px;
     margin-left: 20px;
 }
+
+.nav-links {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50px;
+    width: max-content;
+    height: max-content;
+    display: inline-block;
+}
+
+.nav-button {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    background: none;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Itim";
+    font-weight: bold;
+}
+
+.burger-menu {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    display: none;
+    width: 80px;
+    height: max-content;
+}
+
+.span {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#span3 {
+    
+}
+
+@media screen and (max-width: 720px) {
+    .nav-links {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+}
