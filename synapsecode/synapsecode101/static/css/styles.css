@@ -259,8 +259,9 @@ h3 {
     position: relative;
     top: 0;
     left: 0;
-    width: calc(100% - 300);
+    width: 100%;
     height: max-content;
+    margin-top: 100px;
 }
 
 .project {
@@ -268,9 +269,19 @@ h3 {
     top: 0;
     left: 0;
     width: 40%;
-    height: max-content;
+    height: 500px;
     padding: 20px;
+    margin-left: calc((100% - 40%) / 2);
     background: linear-gradient(-20deg, #B353CE, #521E61);
+}
+
+.project-inside-div {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    background-color: white;
 }
 
 @media screen and (max-width: 1000px) {
