@@ -125,7 +125,7 @@ footer a {
 }
 
 .title {
-    top: 30px;
+    top: -30px;
     margin-left: 20px;
     width: max-content;
 }
@@ -558,7 +558,7 @@ footer a {
     }
 
     .title {
-        top: 20px;
+        top: -20px;
     }
     
     nav {
@@ -609,7 +609,7 @@ footer a {
     }
 
     .title {
-        top: 15px;
+        top: -15px;
     }
     
     nav {
