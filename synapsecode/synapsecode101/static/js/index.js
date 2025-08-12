@@ -26,9 +26,9 @@ burger_menu.addEventListener("click", function () {
             span2.style.animation = "";
             span3.style.animation = "";
 
-            span1.style.top = "14px";
+            span1.style.top = "20px";
             span2.style.opacity = "0";
-            span3.style.top = "-14px";
+            span3.style.top = "-20px";
 
             span1.style.rotate = "45deg";
             span3.style.rotate = "-45deg";
