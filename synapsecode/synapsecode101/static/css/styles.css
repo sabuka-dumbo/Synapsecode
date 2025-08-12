@@ -255,11 +255,19 @@ h3 {
     object-fit: cover;
 }
 
+.project-div {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 300);
+    height: max-content;
+}
+
 .project {
     position: relative;
     top: 0;
     left: 0;
-    width: calc(100% - 40px);
+    width: 40%;
     height: max-content;
     padding: 20px;
     background: linear-gradient(-20deg, #B353CE, #521E61);
