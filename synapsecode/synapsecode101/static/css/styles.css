@@ -195,7 +195,7 @@ h3 {
     font-weight: bold;
     color: white;
     border: none;
-    animation: header-button-animation 1s infinite alternate;
+    background: -webkit-linear-gradient(-20deg, #B353CE, #521E61); /* For Safari 5.1 to 6.0 */
 }
 
 @media screen and (max-width: 1000px) {
@@ -386,14 +386,4 @@ h3 {
     100% {
         left: -100%;
     }
-}
-
-@keyframes header-button-animation {
- 0% {
-    background: -webkit-linear-gradient(-20deg, #B353CE, #521E61); /* For Safari 5.1 to 6.0 */
- }
- 
- 100% {
-    background: -webkit-linear-gradient(-20deg, #521E61, #B353CE); /* For Safari 5.1 to 6.0 */
- }
 }
