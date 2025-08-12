@@ -1,4 +1,4 @@
-const burger_menu = document.getElementById("nav-links");
+const burger_menu = document.getElementById("burger-menu");
 const navbar = document.getElementById("navbar");
 const span1 = document.getElementById("span1");
 const span2 = document.getElementById("span2");
