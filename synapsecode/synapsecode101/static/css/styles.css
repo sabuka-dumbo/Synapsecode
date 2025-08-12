@@ -200,6 +200,61 @@ h3 {
     animation: gradientShift 5s ease infinite;
 }
 
+.aboutus-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 200px);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 58% 4% 38%;
+    margin-bottom: 100px;
+}
+
+.aboutus-info {
+    grid-column: 1;
+}
+
+.aboutus-img {
+    position: relative;
+    grid-column: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.aboutus-container2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 200px);
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 38% 4% 58%;
+}
+
+.aboutus-info2 {
+    grid-column: 3;
+}
+
+.aboutus-img2 {
+    position: relative;
+    grid-column: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 1000px) {
     header {
         grid-template-columns: 100%;
