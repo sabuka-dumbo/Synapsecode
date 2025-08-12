@@ -149,12 +149,14 @@ h3 {
 .header-content {
     grid-column: 1;
     position: relative;
-    top: 100px;
+    margin-top: 100px;
     width: 100%;
 }
 
 .header-img {
     grid-column: 3;
+    width: 100%;
+    object-fit: cover;
 }
 
 .header-description {
