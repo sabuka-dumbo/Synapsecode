@@ -90,6 +90,16 @@ h3 {
     display: inline-block;
 }
 
+footer {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100vw - 20px);
+    height: max-content;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
 .logo {
     position: relative;
     top: 0;
