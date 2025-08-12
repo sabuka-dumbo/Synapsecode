@@ -104,6 +104,18 @@ h1 {
     display: none;
 }
 
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 100px);
+    margin-right: 50px;
+    margin-left: 50px;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 2fr 2;
+}
+
 @media screen and (max-width: 720px) {
     .nav-links {
         display: none;
