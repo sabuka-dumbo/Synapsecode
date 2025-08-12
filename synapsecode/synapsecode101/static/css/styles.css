@@ -94,10 +94,9 @@ footer {
     position: relative;
     top: 0;
     left: 0;
-    width: calc(100vw - 20px);
+    width: 100%;
     height: max-content;
-    padding: 10px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(164, 54, 54);
 }
 
 .logo {
