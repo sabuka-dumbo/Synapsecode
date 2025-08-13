@@ -262,8 +262,29 @@ select {
     background-color: gray;
 }
 
-@media screen and (max-width: 900) {
-    
+@media screen and (max-width: 900px) {
+    .login-section {
+        grid-template-columns: 100%;
+    }
+
+    .login-img {
+        display: none;
+    }
+
+    input {
+        width: 85%;
+        left: 5%;
+    }
+
+    select {
+        width: 90%;
+        left: 5%;
+    }
+
+    .submit {
+        left: 5%;
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 720px) {
