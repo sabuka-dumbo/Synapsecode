@@ -102,6 +102,46 @@ footer a {
     text-decoration: underline;
 }
 
+input {
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: calc(90% - 40px);
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: "Itim";
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #E5F9FF;
+}
+
+select {
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: 90%;
+    height: max-content;
+    padding: 0;
+    margin: 0;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: "Itim";
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #E5F9FF;
+}
+
 .logo {
     position: relative;
     top: 0;
