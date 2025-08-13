@@ -142,6 +142,25 @@ select {
     background-color: #E5F9FF;
 }
 
+.submit {
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: 90%;
+    height: max-content;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: "Itim";
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: #E9AE15;
+    cursor: pointer;
+    color: white;
+}
+
 .logo {
     position: relative;
     top: 0;
