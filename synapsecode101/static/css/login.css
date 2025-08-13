@@ -190,7 +190,17 @@ footer a {
     left: 0;
     width: 100%;
     height: max-content;
-    
+    grid-column: 1;
+    margin-top: 10vh;
+}
+
+.login-img {
+    position: relative;
+    margin-top: 10vh;
+    left: 10%;
+    width: 80%;
+    height: 80vh;
+    background-color: gray;
 }
 
 @media screen and (max-width: 720px) {
