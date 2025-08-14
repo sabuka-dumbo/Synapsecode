@@ -28,13 +28,14 @@ class Lecture(models.Model):
     course = models.ForeignKey(Courses, related_name='lectures', on_delete=models.CASCADE)
     has_lab = models.BooleanField(default=False)
     has_homework = models.BooleanField(default=True)
+    homework_description = models.TextField(default='')
+    lab_description = models.TextField(default='')
 
     def __str__(self):
         return f"{self.course.title}"
     
 class Homework(models.Model):
     homework_title = models.CharField(max_length=100)
-    description = models.TextField()
     course = models.ForeignKey(Courses, related_name='homeworks', on_delete=models.CASCADE)
     lecture = models.ForeignKey(Lecture, related_name='lecture', on_delete=models.CASCADE, null=True, blank=True)
     homework_uploaded = models.FileField(upload_to='homeworks/')
@@ -42,4 +43,4 @@ class Homework(models.Model):
     homework_comment = models.TextField()
 
     def __str__(self):
-        return f"{self.title} - {self.course.title}"
+        return f"{self.homework_title} - {self.course.title}"
