@@ -23,4 +23,5 @@ class Courses(models.Model):
 class Lecture(models.Model):
     title = models.CharField(max_length=100)
     description = models.TextField()
-    
+    video_url = models.URLField()
+    source = models.CharField(max_length=100)
