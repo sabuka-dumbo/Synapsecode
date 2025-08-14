@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Info page</title>
+        <link rel="stylesheet" href="{% static 'css/login.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <img src="{% static 'pics/Logo.jpg' %}" class="logo" alt="Logo">
+            <h1 class="title">Synapsecode</h1>
+
+            <div class="nav-links" id="navbar">
+                <img src="{% static 'pics/Logo.jpg' %}" class="logo2" alt="Logo">
+                <div class="navbar2">
+                    <button class="nav-button nav1" id="nav1">About Us</button>
+                    <button class="nav-button nav2" id="nav2">Projects</button>
+                    <button class="nav-button nav3" id="nav3">Team</button>
+                    <button class="nav-button nav4" id="nav4">Contact Us</button>
+                </div>
+            </div>
+
+            <div class="burger-menu" id="burger-menu">
+                <span class="span" id="span1"></span>
+                <span class="span" id="span2"></span>
+                <span class="span" id="span3"></span>
+            </div>
+        </nav>
+
+        <section class="login-section">
+            <form action="" class="login-form">
+                <input type="email" name="email" id="email" placeholder="Enter email here" required>
+                <input type="password" name="password" id="password" placeholder="Enter password here" required>
+                <input type="submit" class="submit" name="" id="">
+            </form>
+
+            <img src="" class="login-img" alt="">
+        </section>
+
+        <br>
+
+        <script src="{% static 'js/login.js' %}"></script>
+    </body>
+</html>
