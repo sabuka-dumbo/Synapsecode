@@ -37,7 +37,7 @@ nav {
 .nav-link1 {
     position: relative;
     top: 0px;
-    left: 5px;
+    left: -20px;
     width: 100%;
     display: inline-block;
     height: max-content;
@@ -47,13 +47,18 @@ nav {
     color: black;
     padding: 0;
     margin: 0;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
     text-decoration: none;
+    background-color: gainsboro;
+    margin-bottom: 10px;
 }
 
 .nav-link2 {
     position: relative;
     top: 0px;
-    left: 5px;
+    left: -20px;
     width: 100%;
     display: inline-block;
     height: max-content;
@@ -63,13 +68,17 @@ nav {
     color: black;
     padding: 0;
     margin: 0;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .nav-link3 {
     position: relative;
     top: 0px;
-    left: 5px;
+    left: -20px;
     width: 100%;
     display: inline-block;
     height: max-content;
@@ -79,5 +88,18 @@ nav {
     color: black;
     padding: 0;
     margin: 0;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
     text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.icons {
+    position: relative;
+    top: 5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
 }
