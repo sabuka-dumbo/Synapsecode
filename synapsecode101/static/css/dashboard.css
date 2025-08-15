@@ -172,3 +172,75 @@ nav {
         display: none;
     }
 }
+
+@keyframes span1-open {
+    0% {}
+
+    100% {
+        top: 20px;
+        rotate: 45deg;
+    }
+}
+
+@keyframes span2-open {
+    0% {}
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes span3-open {
+    0% {}
+
+    100% {
+        top: -20px;
+        rotate: -45deg;
+    }
+}
+
+@keyframes span1-close {
+    0% {}
+
+    100% {
+        top: 0px;
+        rotate: 0deg;
+    }
+}
+
+@keyframes span2-close {
+    0% {}
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes span3-close {
+    0% {}
+
+    100% {
+        top: 0px;
+        rotate: 0deg;
+    }
+}
+
+@keyframes navbar-open {
+    0% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes navbar-close {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
