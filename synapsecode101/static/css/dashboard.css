@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -124,9 +129,76 @@ nav {
     margin-bottom: 10px;
 }
 
+.section1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 400px);
+    margin-left: 400px;
+    height: calc(100vh - 40px);
+    margin-top: 40px;
+}
+
+.course {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: calc(100% - 80px);
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.course-title {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+    font-family: "Itim";
+    font-weight: bold;
+    color: black;
+}
+
+.course-description {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    font-size: 18px;
+    font-family: "Itim";
+    font-weight: bold;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.course h3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    font-size: 12px;
+    font-family: "Itim";
+    font-weight: bold;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
 @media screen and (max-width: 900px) {
     nav {
         width: 200px;
+    }
+
+    .section1 {
+        width: calc(100% - 300px);
+        margin-left: 200px;
     }
 }
 
