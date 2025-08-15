@@ -109,3 +109,9 @@ nav {
         width: 200px;
     }
 }
+
+@media screen and (max-width: 560px) {
+    .nav {
+        left: -100%;
+    }
+}
