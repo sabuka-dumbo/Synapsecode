@@ -41,7 +41,7 @@ nav {
     width: 100%;
     display: inline-block;
     height: max-content;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Itim";
     font-weight: bold;
     color: black;
@@ -62,7 +62,7 @@ nav {
     width: 100%;
     display: inline-block;
     height: max-content;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Itim";
     font-weight: bold;
     color: black;
@@ -82,7 +82,7 @@ nav {
     width: 100%;
     display: inline-block;
     height: max-content;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Itim";
     font-weight: bold;
     color: black;
@@ -99,7 +99,13 @@ nav {
     position: relative;
     top: 5px;
     left: -5px;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        width: 200px;
+    }
 }
