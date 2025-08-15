@@ -197,8 +197,8 @@ nav {
     }
 
     .section1 {
-        width: calc(100% - 300px);
-        margin-left: 200px;
+        width: calc(100% - 250px);
+        margin-left: 250px;
     }
 }
 
