@@ -207,6 +207,13 @@ nav {
         background: none;
         box-shadow: none;
         width: 70%;
+        z-index: 1000;
+    }
+
+    .section1 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 100px;
     }
 
     .nav-div1 {
